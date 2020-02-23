@@ -1,15 +1,16 @@
 {
-  "name": "svelte-preprocess-separate-styles",
+  "name": "svelte-preprocess-stylepaths",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "build/main.bundle.js",
   "repository": "git@github.com:alexmedkex/svelte-preprocess-separate-styles.git",
   "author": "Alexander Wormbs <alexmedkex@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "babel --presets es2015 src/index.js -o build/main.bundle.js"
   },
-  "dependencies": {
-    "@types/node": "^13.7.4",
-    "typescript": "^3.8.2"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
