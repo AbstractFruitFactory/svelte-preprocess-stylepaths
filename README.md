@@ -1,7 +1,7 @@
 # svelte-preprocess-stylepaths
 A preprocessor for Svelte, which allows you to have your component's style defined in a separate file.
 
-#Install
+# Install
 
 ```
 npm i svelte-preprocess-stylepaths
@@ -12,6 +12,8 @@ or
 ```
 yarn add svelte-preprocess-stylepaths
 ```
+
+# Usage
 
 Add preprocessor to `rollup.config.js`:
 
